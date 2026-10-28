@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="RcTYERKQIn8ZnQCsPzM3" name="Page-1">
+        <mxGraphModel dx="443" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-9" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-1" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p9kX_of0dKtmDl3I-vJC-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Начало" vertex="1">
+                    <mxGeometry height="80" width="260" x="520" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод (этаж)" vertex="1">
+                    <mxGeometry height="60" width="270" x="510" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-11" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-3" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p9kX_of0dKtmDl3I-vJC-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ткущий этаж = 1" vertex="1">
+                    <mxGeometry height="60" width="210" x="550" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Текущий этаж &amp;lt; n?" vertex="1">
+                    <mxGeometry height="100" width="170" x="570" y="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-13" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-5" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p9kX_of0dKtmDl3I-vJC-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="поднять на этаж выше" vertex="1">
+                    <mxGeometry height="40" width="120" x="780" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-14" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p9kX_of0dKtmDl3I-vJC-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="текущий этаж = текущий этаж +1" vertex="1">
+                    <mxGeometry height="60" width="120" x="780" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-15" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-7" style="edgeStyle=none;html=1;" target="p9kX_of0dKtmDl3I-vJC-8">
+                    <mxGeometry relative="1" x="0.2143" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="1000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="вы на целевом этаже" vertex="1">
+                    <mxGeometry height="60" width="120" x="780" y="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Конец" vertex="1">
+                    <mxGeometry height="80" width="120" x="780" y="1120" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-10" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-2" style="edgeStyle=none;html=1;entryX=0.429;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="p9kX_of0dKtmDl3I-vJC-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-12" edge="1" parent="1" source="p9kX_of0dKtmDl3I-vJC-4" style="edgeStyle=none;html=1;entryX=0.626;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="p9kX_of0dKtmDl3I-vJC-5" value="Да">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p9kX_of0dKtmDl3I-vJC-16" edge="1" parent="1" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;curveGeometry=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p9kX_of0dKtmDl3I-vJC-4" value="Нет">
+                    <mxGeometry height="50" relative="1" width="50" x="-0.957" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="840" y="930" as="sourcePoint"/>
+                        <mxPoint x="487.36496192821556" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
